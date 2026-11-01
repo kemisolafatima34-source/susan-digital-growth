@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Start Your Project | Susan Digital Growth</title>
+<meta name="description" content="Start your project with Susan Digital Growth. Send an inquiry by form, WhatsApp or email and get a tailored social media marketing plan.">
+<meta name="theme-color" content="#0b1f3a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main id="main">
+<section class="page-hero"><div class="wrap"><span class="eyebrow">Contact</span><h1>Ready to Grow Your Digital Presence?</h1><p>Let's discuss your goals and create a marketing strategy that moves your online presence forward.</p></div></section>
+
+<section>
+  <div class="wrap contact-grid">
+    <div class="form-box reveal" id="start">
+      <h2 style="font-size:1.6rem">Project inquiry</h2>
+      <form id="inquiry" novalidate>
+        <div class="hp" aria-hidden="true"><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="row">
+          <div><label for="name">Your name *</label><input id="name" name="name" required autocomplete="name"></div>
+          <div><label for="email">Email address *</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+        </div>
+        <div><label for="business">Business or channel name *</label><input id="business" name="business" required></div>
+        <div class="row">
+          <div><label for="service">Service required *</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>YouTube Promotion</option><option>Twitch Streamer Promotion</option><option>TikTok Marketing</option>
+              <option>Instagram Marketing</option><option>Facebook Marketing</option><option>Social Media Management</option>
+              <option>Graphic Design and Video Marketing</option><option>Custom Quote</option>
+            </select></div>
+          <div><label for="platform">Social media platform *</label>
+            <select id="platform" name="platform" required>
+              <option value="">Select a platform</option>
+              <option>YouTube</option><option>Twitch</option><option>TikTok</option><option>Instagram</option><option>Facebook</option><option>X</option><option>Multiple platforms</option><option>Other</option>
+            </select></div>
+        </div>
+        <div><label for="message">Project description *</label><textarea id="message" name="message" required></textarea></div>
+        <div><label for="budget">Budget range (optional)</label>
+          <select id="budget" name="budget"><option value="">Prefer not to say</option><option>Under $200</option><option>$200 - $500</option><option>$500 - $1,000</option><option>$1,000+</option></select></div>
+        <button class="btn btn-gold btn-block" type="submit">Start Your Project</button>
+        <div id="form-msg" class="form-msg" role="status" tabindex="-1"></div>
+        <p style="font-size:.82rem;color:var(--muted);margin:0">Advertising budgets and third-party fees are separate unless included in an agreed proposal.</p>
+      </form>
+    </div>
+
+    <aside class="reveal">
+      <div class="card">
+        <h3>Prefer to talk?</h3>
+        <ul class="side-list">
+          <li><a class="btn btn-wa btn-block" data-wa="Hello Susan Digital Growth, I'd like to discuss a project." href="contact.html">Chat on WhatsApp</a></li>
+          <li><strong>Business email</strong><small data-email></small></li>
+          <li><strong>Discord</strong><small data-discord></small></li>
+          <li><strong>Typical process</strong><small>1. Share your goals &nbsp; 2. Receive a tailored proposal &nbsp; 3. Agree scope and timeline &nbsp; 4. Launch</small></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="head reveal"><span class="eyebrow">Find us online</span><h2>Professional &amp; social profiles</h2><div class="rule"></div><p>Hire through Fiverr or Upwork, or follow along on social media.</p>
+      <p style="font-size:.95rem"><strong>Note:</strong> on some of these accounts my name appears as <strong>Fatima</strong>. It's my second name, so Susan and Fatima are the same person.</p></div>
+    <div class="socials" style="justify-content:center" data-socials></div>
+  </div>
+</section>
+</main>
+<div id="site-footer"></div>
+<script src="site-config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
